@@ -1,0 +1,57 @@
+.price {
+    text-decoration: line-through;
+    /* Linha no primeiro valor */
+    color: #888;
+    /* Cor cinza para o preço anterior */
+  }
+
+  .discounted-price {
+    font-size: 1.25rem;
+    /* Tamanho maior para o preço com desconto */
+    color: #E73C7E;
+    /* Cor rosa para o preço com desconto */
+  }
+
+  body {
+  background-image: url('imagens1/passaporte\ \(1\).jpg');
+  /* Substitua 'fundo_destinos.jpg' pelo nome da sua imagem de fundo */
+  background-size: cover;
+  /* A imagem de fundo cobrirá todo o tamanho do corpo da página */
+  background-attachment: fixed;
+  /* A imagem de fundo permanecerá fixa quando a página rolar */
+  background-repeat: no-repeat;
+  /* Evita que a imagem de fundo seja repetida */
+  background-position: center;
+  /* Centraliza a imagem de fundo na tela */
+}
+
+/* SCROLLBAR */
+
+/* Adicione este código no seu arquivo estilos.css */
+
+/* Estilo geral do scrollbar */
+body::-webkit-scrollbar {
+  width: 10px; /* Largura do scrollbar */
+}
+
+/* Rastreio (track) do scrollbar */
+body::-webkit-scrollbar-track {
+  background-color: #0f0f0f; /* Cor do rastreio */
+}
+
+/* Handle do scrollbar */
+body::-webkit-scrollbar-thumb {
+  background-color: #2ecc71; /* Cor do handle */
+  border-radius: 8px; /* Borda do handle */
+  transition: background-color 0.3s ease; /* Efeito de transição na cor */
+}
+
+/* Efeito de hover no handle */
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #3498db; /* Cor ao passar o mouse sobre o handle */
+}
+
+/* Canto do scrollbar */
+body::-webkit-scrollbar-corner {
+  background-color: #0f0f0f; /* Cor do canto */
+}
